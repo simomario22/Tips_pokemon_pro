@@ -2,16 +2,16 @@
 <!-- START xml_defaults -->
 <defaultsMap>
     <entry>
-        <key>pokimon1</key>
+        <key>Pokimona</key>
         <value>https://www.facebook.com/</value>
     </entry>
     <entry>
-        <key>pokimon2</key>
+        <key>Pokimonb</key>
         <value>https://www.youtube.com/</value>
     </entry>
 
     <entry>
-        <key>pokimon3</key>
+        <key>Pokimonc</key>
         <value>https://www.google.com/</value>
     </entry>
 </defaultsMap>

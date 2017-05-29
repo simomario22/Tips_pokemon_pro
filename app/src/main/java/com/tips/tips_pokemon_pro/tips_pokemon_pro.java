@@ -115,7 +115,7 @@ public class tips_pokemon_pro extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon1")));
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("Pokimona")));
         startActivity(intent);
 
     }
@@ -125,7 +125,7 @@ public class tips_pokemon_pro extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon2")));
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("Pokimonb")));
         startActivity(intent);
     }
 
@@ -136,7 +136,7 @@ public class tips_pokemon_pro extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon3")));
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("Pokimonc")));
         startActivity(intent);
     }
 }

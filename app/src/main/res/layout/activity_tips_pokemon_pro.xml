@@ -71,23 +71,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="but10"
-            android:text="Button"
+            android:text="review for get more"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
             android:onClick="but11"
+            android:text="support us"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
             android:onClick="but12"
+            android:text="more"
             tools:ignore="HardcodedText" />
 
         <com.google.android.gms.ads.AdView
