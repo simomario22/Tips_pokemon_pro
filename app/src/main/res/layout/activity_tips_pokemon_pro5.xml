@@ -28,6 +28,17 @@
                 android:text="Maximise your throw bonus  you would possibly have observed the ones inexperienced, yellow, or orange circles while looking to seize a Pokemon, and you might be thinking what they are all about. those jewelry are actually there as a way to get the suitable timing while throwing the Pokeball to gain throw bonuses. you may get extra bonuses in case you hit the middle of the circle or even further if the circle is smaller. that is simply an clean way to earn a few XP through mastering the artwork of hitting the middle of the smallest circle.  Get better Pokemon from Eggs Eggs may be observed at PokeStops, and they have the opportunity of hatching rare Pokemon. once you gather those eggs, they may be determined after swiping left of the Pokemon sub menu. when you faucet on any of these eggs, there can be an option to incubate them. After placing them within the incubator, you’ll want to stroll while the sport is open to your device for the eggs to hatch as Pokemon. There are 2 km, 5 km or 10 km eggs, and every of them will give you extraordinary Pokemon. The longer you have to stroll to hatch the egg, the better probabilities of snagging an extraordinary Pokemon. Don’t be too discouraged in case you don’t get a great Pokemon from an egg. you continue to get a first rate quantity of Stardust and sweet with every hatched egg.   move to places where people acquire to play the sport   if you want to seize a few outstanding Pokemon, you may circulate over to a place that is populated with Pokemon pass players. The gamers typically placed out lures with the intention to appeal to diverse Pokemon. attempt to institution with different humans at the same time as playing the sport and select a location where there are various PokeStops round to get the first-class consequences. "
                 android:textSize="24sp"
                 tools:ignore="HardcodedText" />
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                tools:ignore="ObsoleteLayoutParam"></com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>
 
