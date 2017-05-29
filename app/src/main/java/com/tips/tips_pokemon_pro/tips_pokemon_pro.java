@@ -1,6 +1,8 @@
 package com.tips.tips_pokemon_pro;
 
 import android.content.Intent;
+import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +12,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 
 public class tips_pokemon_pro extends AppCompatActivity {
 
@@ -17,6 +22,10 @@ public class tips_pokemon_pro extends AppCompatActivity {
 
     //ads interctitiall
     private InterstitialAd interstitial;
+
+    // fire
+
+    public FirebaseRemoteConfig mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +54,28 @@ public class tips_pokemon_pro extends AppCompatActivity {
                 }
             }
         });
+
+        // remot config
+
+
+        mFirebaseRemoteConfig.setDefaults(R.xml.remote_config_defaults);
+        long cacheExpiration = 0; //1 hour = 3600 in seconds
+        if(mFirebaseRemoteConfig.getInfo().getConfigSettings().isDeveloperModeEnabled())
+        {
+            cacheExpiration = 0;
+        }
+        mFirebaseRemoteConfig.fetch(cacheExpiration)
+                .addOnCompleteListener(new OnCompleteListener<Void>(){
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task){
+                        if(task.isSuccessful()){
+                            mFirebaseRemoteConfig.activateFetched();
+                        } else {
+
+                        }
+                    }
+                });
+
     }
 
     public void but5(View view) {
@@ -76,8 +107,36 @@ public class tips_pokemon_pro extends AppCompatActivity {
         startActivity(i);
     }
 
+
+
+
     public void but10(View view) {
 
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon1")));
+        startActivity(intent);
 
+    }
+
+    public void but11(View view) {
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon2")));
+        startActivity(intent);
+    }
+
+
+
+    public void but12(View view) {
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+        intent.setData(Uri.parse(mFirebaseRemoteConfig.getString("pokimon3")));
+        startActivity(intent);
     }
 }

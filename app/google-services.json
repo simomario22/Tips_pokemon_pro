@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022998122444",
+    "firebase_url": "https://tips-d5b35.firebaseio.com",
+    "project_id": "tips-d5b35",
+    "storage_bucket": "tips-d5b35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022998122444:android:a6e0dc7a0ba21f1d",
+        "android_client_info": {
+          "package_name": "com.tips.tips_pokemon_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022998122444-d2ed5bpd2semh756h5pq1j4to11o1en8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tips.tips_pokemon_pro",
+            "certificate_hash": "9269f4cd10d689faa50829933245d390c88bbff9"
+          }
+        },
+        {
+          "client_id": "1022998122444-mrae0a1pf2e185bjs2p7m89a9l9kn9o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7bkQjSZ0aDDK4sv3XNXY7ibjNYFTI6X8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022998122444-mrae0a1pf2e185bjs2p7m89a9l9kn9o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -79,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button"
+            android:onClick="but11"
             tools:ignore="HardcodedText" />
 
         <Button
@@ -86,6 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button"
+            android:onClick="but12"
             tools:ignore="HardcodedText" />
 
         <com.google.android.gms.ads.AdView
