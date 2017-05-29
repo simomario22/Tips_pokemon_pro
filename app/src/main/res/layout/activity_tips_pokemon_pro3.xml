@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tips.tips_pokemon_pro.tips_pokemon_pro3">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t forget about them if you preserve getting the same Pokemon to show up  in case you maintain getting the same Pokemon again and again once more, hold them. you may evolve them later while you degree up your instructor. Pokemon move gamers level up their trainers after acquiring enough XP required for their subsequent degree. The trainers with higher stages get to catch Pokemon with better CP and HP. on the other hand, evolving your duplicate Pokemon is every other proper option. It simplest fees a few sweet to adapt not unusual Pokemon like Rattata, Pidgey and Weedle, which in return gives you 500 XP. They also can be transferred to Professor Willow later so as to earn every other bonus sweet.  Use instructor degree to boom the help of fortunate Eggs and Incense  You normally earn 500 XP for evolving a Pokemon. using fortunate Eggs doubles up the XP for a 1/2 hour, this means that you’ll receive a thousand XP for each Pokemon developed at some stage in that point body. it's far advisable which you hold the regularly determined Pokemon for evolving whilst the usage of fortunate Eggs. you may also use an Incense on the identical time, as the 500 XP for catching a new Pokemon will double up because of the fortunate Eggs."
+                android:textSize="24sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tips.tips_pokemon_pro.tips_pokemon_pro6">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="discover various areas and play at night   Pokemon go requires a number of shifting round. gamers want to move to specific areas to capture distinctive Pokemon. So, you’ll want to be a touch adventurous if you need to reach catching them all. attempt to assignment round some unexplored areas; who knows if an extraordinary Pokemon is watching for you there. every other properly alternative is to play Pokemon cross at night time. quite a few Pokemon have a danger of appearing most effective in the night or at night time. then again, some other Pokemon most effective seem in geographically appropriate regions.   Evolve Eevee with this Easter Egg   Eevee is a Pokemon who can evolve into 3 exclusive Pokemon randomly. there is additionally an Easter egg buried in the game which become found out via Redditor smithnigel. here’s how he explains Eevee’s evolution trick: “The Eevee Brothers from the original anime have been named Rainer, Pyro, Sparky and they owned a Vaporeon, Flareon and Jolteon respectively. if you nickname your Eevee either Rainer, Pyro or Sparky, your Eevee will evolve into that preferred Eeveelution!” however, you'll want to understand that this could most effective paintings on the primary Eevee you name correctly.  Win health club battles every time  you may without difficulty win any health club conflict against an opponent the use of this easy ward off and assault method. All you need to do is be aware the yellow flash of your enemy, after which sidestep their coming near near attack immediately. After dodging their assault, hit the enemy Pokemon again through tapping at your very own Pokemon. you may use this use this technique time and again again to defeat any enemy. however, if you face server issues this trick received’t be of an awful lot assist for you. "
+                android:textSize="24sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

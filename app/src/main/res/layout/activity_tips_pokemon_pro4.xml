@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tips.tips_pokemon_pro.tips_pokemon_pro4">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don’t use Stardust till you attain level 12 or 15  In Pokemon pass, you're rewarded with Stardust quite frequently for catching Pokemon and hatching eggs. Stardust will assist you later in increasing the strength stage of the pinnacle-stage Pokemon. The Pokemon that you seize while at low instructor ranges are omitted while the level increases, so, any usage of Stardust over them will just be a waste  Throw a curve ball  you may have already observed the curveball bonus a couple of times. The bonus seems simply after scooping up a Pokemon. you may easily earn that curveball bonus by using the use of a easy trick. you could faucet the Pokeball at the bottom of your screen, drag it forward, and swirl it in a circular way whilst you are attempting to seize a Pokemon. after you begin swirling it around in a round way, the Pokeball will start spraying sparks and it will likely be that second whilst you'll want to throw the ball toward the Pokemon. this can want some practice until to begin earning curveball bonuses extra often. "
+                android:textSize="24dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
