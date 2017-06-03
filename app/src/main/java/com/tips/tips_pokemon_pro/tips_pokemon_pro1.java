@@ -16,7 +16,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 
-public class tips_pokemon_pro extends AppCompatActivity {
+public class tips_pokemon_pro1 extends AppCompatActivity {
 
     private AdView mAdView;
 
@@ -30,7 +30,7 @@ public class tips_pokemon_pro extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tips_pokemon_pro);
+        setContentView(R.layout.activity_tips_pokemon_pro1);
 
         // ads
         MobileAds.initialize(getApplicationContext(),
@@ -40,7 +40,7 @@ public class tips_pokemon_pro extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
         // Prepare the Interstitial Ad
-        interstitial = new InterstitialAd(tips_pokemon_pro.this);
+        interstitial = new InterstitialAd(tips_pokemon_pro1.this);
 
         // loude
         interstitial = new InterstitialAd(getApplicationContext());
