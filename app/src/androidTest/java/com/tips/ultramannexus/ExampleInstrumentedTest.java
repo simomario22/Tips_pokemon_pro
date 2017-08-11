@@ -1,4 +1,4 @@
-package com.tips.tips_pokemon_pro;
+package com.tips.ultramannexus;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.tips.tips_pokemon_pro", appContext.getPackageName());
+        assertEquals("com.tips.ultramannexus", appContext.getPackageName());
     }
 }
