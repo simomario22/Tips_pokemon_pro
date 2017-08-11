@@ -2,16 +2,16 @@
 <!-- START xml_defaults -->
 <defaultsMap>
     <entry>
-        <key>Pokimona</key>
-        <value>https://www.facebook.com/</value>
+        <key>ultramannexus1</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
     </entry>
     <entry>
-        <key>Pokimonb</key>
-        <value>https://www.youtube.com/</value>
+        <key>ultramannexus2</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
     </entry>
 
     <entry>
-        <key>Pokimonc</key>
-        <value>https://www.google.com/</value>
+        <key>ultramannexus3</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
     </entry>
 </defaultsMap>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tips.tips_pokemon_pro">
+    package="com.tips.ultramannexus">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,12 +14,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tips_pokemon_pro2" />
-        <activity android:name=".tips_pokemon_pro3" />
-        <activity android:name=".tips_pokemon_pro4" />
-        <activity android:name=".tips_pokemon_pro5" />
-        <activity android:name=".tips_pokemon_pro6" />
-        <activity android:name=".tips_pokemon_pro1">
+        <activity android:name=".ultramannexus2" />
+        <activity android:name=".ultramannexus3" />
+        <activity android:name=".ultramannexus4" />
+        <activity android:name=".ultramannexus5" />
+        <activity android:name=".ultramannexus6" />
+        <activity android:name=".ultramannexus">
+
+        </activity>
+        <activity android:name=".ultramannexus_splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
