@@ -3,14 +3,11 @@ package com.tips.ultramannexus;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.appodeal.ads.Appodeal;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
-import com.google.android.gms.ads.MobileAds;
 
 public class ultramannexus5 extends AppCompatActivity {
-    private AdView mAdView;
+
 
 
 
@@ -19,12 +16,7 @@ public class ultramannexus5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ultramannexus5);
 
-        MobileAds.initialize(getApplicationContext(),
-                "ca-app-pub-1836713170480258~7665635944");
-        mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
+        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
     }
 }

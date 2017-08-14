@@ -8,8 +8,8 @@ android {
         applicationId "com.tips.ultramannexus"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "2.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -32,6 +32,9 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:11.0.2'
     compile 'com.google.firebase:firebase-database:11.0.2'
     testCompile 'junit:junit:4.12'
+    compile project(':cheetah-mobile-3.4.7')
+
+    compile 'com.google.android.gms:play-services-location:11.0.2'
 }
 
 
